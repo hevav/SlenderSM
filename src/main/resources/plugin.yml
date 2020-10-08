@@ -1,0 +1,19 @@
+name: SlenderSM
+version: 0.0.1
+main: dev.hevav.slendersm.SlenderSM
+commands:
+  slendtog:
+    description: Start or stop this plugin
+    usage: /slendtog
+    permission: slendersm.start
+  slendmcount:
+    description: Set max count of frames
+    usage: /slendmcount [count]
+    permission: slendersm.start
+permissions:
+  slendersm.start:
+    default: op
+    description: Start or stop this plugin
+  slendersm.beslender:
+    default: op
+    description: Be the slender
